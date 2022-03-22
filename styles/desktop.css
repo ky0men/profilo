@@ -145,26 +145,10 @@ h6 {
 .contact-email i {
   margin-right: 8px;
 }
-/* .social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contact-email:hover a,
+.contact-phone:hover a {
+  color: var(--third-color);
 }
-.social-icon a {
-  margin: 0 12px;
-}
-.social-icon i {
-  font-size: 24px;
-}
-.social-icon .fa-facebook-square {
-  color: #0099ff;
-}
-.social-icon .fa-instagram-square {
-  color: #e4405f;
-}
-.social-icon .fa-linkedin {
-  color: #00aff0;
-} */
 .bottom-btn {
   display: flex;
   justify-content: space-between;
@@ -174,17 +158,12 @@ h6 {
 .call-me-btn {
   font-size: 16px;
   padding: 4px 12px;
-  /* border: 1px solid #000; */
   color: #fff;
   border-radius: 8px;
   background: transparent;
-  /* text-align: center; */
   position: relative;
   overflow: hidden;
   box-shadow: 0px 4px 6px #666;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .down-cv-btn::before,
 .call-me-btn::before {
