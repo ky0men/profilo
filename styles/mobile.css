@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+  .left-side-container {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 16px;
+  }
+  .profilo-left {
+    width: 100%;
+    position: static;
+    height: 600px;
+    margin-top: 0;
+  }
+  .bottom-left-side {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main-content {
+    margin-left: 0;
+  }
+  .job-target-des {
+    margin-top: 36px;
+  }
+  .certifications-container {
+    height: auto;
+  }
+  .skills,
+  .interest {
+    height: auto;
+  }
+  .interest {
+    margin-top: 48px !important;
+  }
+  .interest-container h3 {
+    top: 36px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .profilo-left {
+    height: 650px;
+  }
+}

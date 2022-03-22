@@ -1,0 +1,34 @@
+@media screen and (max-width: 1024px) {
+  .education-content {
+    padding: 0;
+  }
+  .education-title {
+    align-items: center;
+  }
+  .certifications-container {
+    height: 250px;
+    padding: 18px;
+  }
+  .skills,
+  .interest {
+    height: 280px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 36px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .profilo-left {
+    width: 260px;
+  }
+  .main-content {
+    margin-left: 280px;
+  }
+  .bottom-left-side {
+    left: 20px;
+  }
+  .skills,
+  .interest {
+    height: 340px;
+  }
+}
