@@ -154,7 +154,7 @@ h6 {
   justify-content: space-between;
   margin-top: 16px;
 }
-.down-cv-btn,
+/* .down-cv-btn,
 .call-me-btn {
   font-size: 16px;
   padding: 4px 12px;
@@ -176,7 +176,8 @@ h6 {
   left: 2px;
   right: 2px;
   bottom: 2px;
-  border-radius: 6px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .down-cv-btn::after,
 .call-me-btn::after {
@@ -225,6 +226,29 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
+} */
+.down-cv-btn,
+.call-me-btn {
+  border-radius: 60px;
+  padding: 4px 10px;
+  color: var(--primary-color);
+  font-size: 16px;
+  background-color: var(--secondary-color);
+  position: relative;
+  top: -8px;
+  font-weight: bold;
+  box-shadow: 0px 4px 1px #168ec9;
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.down-cv-btn:hover,
+.call-me-btn:hover {
+  transition: all 0.25s;
+  box-shadow: 0px 0px 0px #168ec9;
+  border: 1px solid var(--third-color);
+  color: var(--third-color);
+  top: -4px;
 }
 
 /* MAIN CONTENT */
