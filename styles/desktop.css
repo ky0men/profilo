@@ -112,7 +112,6 @@ h6 {
   flex-wrap: wrap;
   padding: 0 60px;
   margin-top: 50px;
-  /* justify-content: center; */
 }
 .main-language,
 .sub-language,
@@ -154,79 +153,7 @@ h6 {
   justify-content: space-between;
   margin-top: 16px;
 }
-/* .down-cv-btn,
-.call-me-btn {
-  font-size: 16px;
-  padding: 4px 12px;
-  color: #fff;
-  border-radius: 8px;
-  background: transparent;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0px 4px 6px #666;
-}
-.down-cv-btn::before,
-.call-me-btn::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: rgba(255, 255, 255, 0.75);
-  background: var(--primary-color);
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.down-cv-btn::after,
-.call-me-btn::after {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  top: calc(-60px + 50%);
-  left: 0;
-  display: block;
-  background: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
-  );
-  height: 120px;
-  width: 120px;
-  border-radius: 100%;
-  animation: r1 5s linear infinite;
-}
-.call-me-btn::after {
-  background: linear-gradient(
-    to right top,
-    #c1e8ef,
-    #93dbc4,
-    #9dc57b,
-    #c9a03a,
-    #f46640
-  );
-}
-.down-cv-btn:hover,
-.call-me-btn:hover {
-  color: var(--fourth-color);
-  transform: scale(1.1);
-  box-shadow: 1px 1px 4px var(--secondary-color);
-}
-.down-cv-btn:hover:after {
-  transform-origin: center center;
-}
-@keyframes r1 {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
+
 .down-cv-btn,
 .call-me-btn {
   border-radius: 60px;
